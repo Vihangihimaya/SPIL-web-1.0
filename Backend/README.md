@@ -21,5 +21,5 @@ dotnet run
 ```
 
 Notes:
-- If you prefer SQL Server, set `"DefaultConnection": "Server=localhost;Database=spil;User Id=sa;Password=Your_password123;TrustServerCertificate=True;"` and change the DbContext configuration to `UseSqlServer` in `Program.cs`.
+- If  prefer SQL Server, set `"DefaultConnection": "Server=localhost;Database=spil;User Id=sa;Password=Your_password123;TrustServerCertificate=True;"` and change the DbContext configuration to `UseSqlServer` in `Program.cs`.
 - The scaffold is intentionally minimal; expand services, DTOs, validation, logging, and authentication as next steps.
