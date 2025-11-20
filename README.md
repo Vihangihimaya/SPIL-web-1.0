@@ -48,7 +48,7 @@ npm run dev
 ```
 
 ### Access Application
-Open http://localhost:5173 in your browser
+Open http://localhost:3000/ in your browser
 
 # Screen 2 (Order List) loads first
 
@@ -56,8 +56,6 @@ Click "Add New" to open Screen 1 (Sales Order)
 
 ### Backend Integration Notes
 - The frontend is configured to connect to a .NET Core Web API backend at:
-
-- Base URL: http://localhost:5000/api
 
 - API endpoints are set up in Redux services
 
@@ -76,13 +74,16 @@ src/
 
 
 
-## ** Backend **
+### Backend (.NET API)
+1.  Navigate to the `/backend` directory.
+2.  Run `dotnet restore` to install dependencies.
+3.  Run `dotnet run` to start the server.
 
-```markdown
+   ```markdown
 # Sales Application - Backend (.NET Core)
 
 ##  Progress Made
-We successfully set up the foundation for the .NET Core backend:
+Set up the foundation for the .NET Core backend:
 ```
 
 ###  Completed
@@ -106,7 +107,7 @@ We successfully set up the foundation for the .NET Core backend:
 
 I would like to provide some context on the implementation:
 
-*   **Frontend:** The frontend application is complete and fully functional, reflecting my standard of work and expertise in [Your Frontend Tech].
+*   **Frontend:** The frontend application is complete and fully functional, reflecting my standard of work and expertise.
 *   **Backend (.NET):** The backend was developed as a valuable learning opportunity. My primary expertise is in **Node.js**, and while I was excited to work with .NET, the constrained timeline was a significant challenge for diving deep into the ecosystem.
 
 I have implemented the core backend functionality to the best of my ability within the given timeframe. I am aware that certain aspects could be further optimized with more .NET experience, and I welcome any constructive feedback on the approach.
